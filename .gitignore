@@ -1,0 +1,71 @@
+# Local configuration, credentials, and private identifiers
+.env
+.env.*
+!.env.example
+config.local.json
+secrets.json
+credentials.json
+service_account*.json
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Runtime databases and journals
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Runtime logs, sensor sessions, and raw data
+*.log
+*.log.*
+logs/
+data/
+*.csv
+*.tsv
+verde_integrated_session_*
+turbidity_calibration_1ntu_*
+
+# Machine-local calibration records require explicit review before sharing
+*_calibration*.json
+ec_calibration_*.json
+turbidity_calibration_ntu.json
+
+# Camera, AI, datasets, and model artifacts
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+*.tflite
+datasets/
+models/
+
+# Environments, caches, build output, and editor files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+coverage/
+.vscode/
+.idea/
+*.tmp
+*.temp
+*.bak
+*.orig
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
