@@ -1,0 +1,4 @@
+active
+MainPID=27837
+ActiveEnterTimestamp=Sun 2026-10-25 18:27:44 PST
+25: op dh pn | hi // GPIO25 = output
